@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box; 
+	margin: 0;
+	padding: 0;
+}
+
+
+#box-01, #box-03, #box-05 {
+  background-color: hsla(60, 100%, 60%, .85);
+  width: 50%;
+}
+
+#box-02, #box-04, #box-06 {
+  background-color: hsla(84, 84%, 56%, .85);
+  width: 50%;
+}
+
+
+div {
+  display: inline-block;
+}

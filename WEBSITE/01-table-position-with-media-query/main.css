@@ -1,0 +1,48 @@
+* {
+	box-sizing: border-box; /* no margin, padding on boxes */
+}
+
+body {
+  
+}
+
+.font-Amatic {
+  font-family: 'Amatic SC', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.cover {                   
+  background: url('https://i.imgur.com/M63CmyH.jpg?1') no-repeat 70% center/cover;   /* repeat, repeat-y, repeat-x, rigth, left, top, bottom, center */
+  display: table;
+  text-align: center;
+  height: 100vh;    /* background full size vertically */
+  width: 100%;     /* background full size horizontally */
+}
+
+.cover-box {                    
+  display: table-cell;
+  vertical-align: middle;
+}
+.cover-innerbox {
+  margin: 0 auto;
+  padding: .625rem;
+  color: hsla(0,0%,100%,.9);
+  background: hsla(100,0%,0%,.5);
+}
+
+@media (min-width: 800px) {
+  .cover-innerbox {
+    width: 50%;
+		
+  }	
+	.cover-innerbox h1 {
+    font-size: 5rem;
+  }
+	.cover-innerbox h1 {
+    text-transform: uppercase;
+  }
+}
+
+  

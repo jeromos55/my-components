@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i');
+
+* {
+
+}
+
+body {
+  margin: 1rem;
+  line-height: 1.2;
+  font-size: 1.25rem;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #fff5eb;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.red {
+  color: #09048b;
+}
+
+.green {
+  color: #00ff00;
+}
+
+.blue {
+  color: #0000ff;
+}
+
+h1 {
+  font-size: 2.1825rem;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400i;
+  margin-top: 0.3em;
+}
+
+
+p {
+  font-size: 15px;
+  text-align: justify;
+  margin-top: 0.5rem
+}
+
+img {
+  width: 21rem;
+}
+
+.container {
+
+}
+
+.box-1 {
+  width: 70%;
+  float: left;
+  margin-right: 10px;
+}
+
+.box-2 {
+  width: 26%;
+  float: left;
+  padding-left: 10px;
+  border-left: 1px solid black;
+}
+
+.box-3 {
+  margin-top: 1rem;
+  border-top: 1px solid black;
+  padding-top: 1rem
+}
+
+.box-3 img {
+ float: left;
+  margin-right: 20px
+}
+
+@media all and (max-width: 700px) {
+  .box-1 { 
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+  .box-2 { 
+    width: 100%; 
+    border-left: 0px; 
+    padding-left: 0px;
+    padding-top: 10px;
+    border-top: 1px solid black;
+  }
+  .box-3 { width: 100%;}
+}
