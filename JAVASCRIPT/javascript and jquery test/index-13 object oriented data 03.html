@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function carList(buydate, condition, color, price) {
+				this.buydate = buydate;
+        this.condition = condition;
+        this.color = color;
+        this.price = price;
+				this.carOld = carAge;
+      }
+
+			function carAge() {
+				var dateNow = new Date(); //dateNow.getFullYear(); this year's number
+				return dateNow.getFullYear() - this.buydate;
+			}
+
+      
+      var porche = new carList(1990, "used", "red", 3000);
+      var tesla = new carList(2010, "new", "white", 8000);
+
+    </script>
+  </head>
+
+<body>
+  <h2>Car list</h2>
+  <p id="demo"></p>
+
+  <script>
+    document.getElementById("demo").innerHTML = (
+    "<strong>Porche</strong> " + "<br>" + 
+		"This car is " + porche.carOld() + " years old." + "<br>" +
+    "Condition: " + porche.condition + "<br>" + 
+    "Color: " + porche.color + "<br>" + 
+    "Price: " + porche.price + "$" + "<br>" +
+ 
+    "<br>" +
+    "<strong>Tesla</strong> " + "<br>" + 
+		"This car is " + tesla.carOld() + " years old." + "<br>" +
+    "Condition: " + tesla.condition + "<br>" + 
+    "Color: " + tesla.color + "<br>" + 
+    "Price: " + tesla.price + "$" + "<br>"
+    );
+  </script>  
+</body>
+
+
+
+</html>

@@ -1,0 +1,50 @@
+.jumbotron{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.done {
+    text-decoration: line-through;;
+}
+
+.upper-margin {
+    margin-top: 2em;
+}
+
+.box-center, .text-center, .text-left-widht80 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 1em;
+}
+
+.text-center {   
+    text-align: center;
+}
+
+li {
+	margin-left: auto;
+  margin-right: auto;
+	width: 60%;
+	list-style-type: none;
+	color: blue;
+}
+
+li li {
+	text-indent: -80px;
+	color: green;
+}
+
+.text-left-widht80 {
+    text-align: left;
+}
+
+img {
+    width: 200px;
+}
+
+.hide {
+    display: none;
+}

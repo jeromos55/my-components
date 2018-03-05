@@ -1,0 +1,52 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  /* background: #bfd7e0;*/
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(255, 255, 255);
+
+  height: 100%;
+  background-image: url('https://i.imgur.com/JcN0A1C.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+}
+
+
+.tab-panels ul {
+  margin: 0;
+  padding: 0;
+}
+.tab-panels ul li {
+  list-style-type: none;
+  display: inline-block;
+  background: transparent;
+  margin: 0;
+  padding: 3px 10px;
+  color: #fff;
+  font-weight: 200;
+  cursor: pointer;
+
+}
+.tab-panels ul li:hover {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.tab-panels ul li.active {
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.tab-panels .panel {
+  display:none;
+  background: transparent;
+  padding: 30px;
+}
+
+.tab-panels .panel.active {
+  display:block;
+}

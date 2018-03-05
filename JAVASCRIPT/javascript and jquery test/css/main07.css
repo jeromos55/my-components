@@ -1,0 +1,62 @@
+.jumbotron{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    border-radius: 10px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin: 1rem;
+    width: 20%; 
+    display: inline-block;
+    vertical-align: top;
+}
+
+.cont {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.card-title {
+    background-color: blue;
+    padding: 1rem;
+    color: white;
+    font-size: 90%;
+    border-radius: 10px;
+}
+
+.done {
+    text-decoration: line-through;;
+}
+
+.upper-margin {
+    margin-top: 2em;
+}
+
+.box-center, .text-center, .text-left-widht80 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 1em;
+}
+
+.text-center {   
+    text-align: center;
+}
+
+.text-left-widht80 {
+    text-align: left;
+}
+
+img {
+    width: 200px;
+}
+
+.hide {
+    display: none;
+}
+

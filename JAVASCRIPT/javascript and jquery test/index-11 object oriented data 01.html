@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function carList(condition, color, price) {
+        this.condition = condition;
+        this.color = color;
+        this.price = price;
+      }
+
+      var porche = new carList("used", "red", 3000);
+      var tesla = new carList("new", "white", 8000);
+
+    </script>
+  </head>
+
+<body>
+  <h2>Car list</h2>
+  <p id="demo"></p>
+
+  <script>
+    document.getElementById("demo").innerHTML = (
+    //"<br>" + 
+    "<strong>Porche</strong> " + "<br>" + 
+    "Condition: " + porche.condition + "<br>" + 
+    "Color: " + porche.color + "<br>" + 
+    "Price: " + porche.price + "$" + "<br>" +
+ 
+    "<br>" +
+    "<strong>Tesla</strong> " + "<br>" + 
+    "Condition: " + tesla.condition + "<br>" + 
+    "Color: " + tesla.color + "<br>" + 
+    "Price: " + tesla.price + "$" + "<br>"
+    );
+  </script>  
+</body>
+
+
+
+</html>

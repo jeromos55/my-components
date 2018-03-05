@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Javascript</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main14.css">
+</head>
+
+<body>
+	<style>
+		.colorRed {
+			color: red;
+		}
+	</style>
+
+	<header>
+		<div class="jumbotron upper-margin">
+			<div class="container">
+				<h1 class="head">BEVÁSÁRLÓ LISTA</h1>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="box-center">
+			<ul class="list">
+				<li>Bread</li>
+				<li class="special">Sugar</li>
+				<li>Flour</li>
+				<li>Meat
+					<ul class="list">
+						<li>Cold cuts</li>
+						<li>Chiken breath</li>
+						<li>Stake</li>
+					</ul>
+				</li>
+				<li>Tea</li>
+			</ul>
+		</div>
+	</main>
+
+	
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+	<script>
+
+		$(function(){
+			
+			//$('li').on('click', function (){
+				//----------------------------------------------
+				//$(this).prev().remove();
+				//$(this).next().addClass('colorRed');
+				//----------------------------------------------
+				//$(this).prev().remove();
+				//----------------------------------------------
+				//$(this).siblings().remove();
+				//----------------------------------------------
+				//$(this).siblings().addClass('special');
+				//----------------------------------------------
+				//$(this).closest('.list').addClass('special');
+				//----------------------------------------------
+			//$('.list').on('click', function (){
+				//$(this).find('li').addClass('colorRed');
+			//----------------------------------------------
+			//$('.list').on('click', function (){
+				//$(this).find('li').filter('.special').remove();
+			//----------------------------------------------
+			//$('.special').on('click', function (){
+				//alert('special');
+			//----------------------------------------------
+			// $('li').on('click', function (){
+			// 	$(this).hide();
+			// 	if ( $(this).is('.special')) {  // is special
+			// 		alert('special');
+			//----------------------------------------------
+			$('li').on('click', function (){
+				$(this).hide();
+				if ( !$(this).is('.special')) {   // isn't special
+					alert(' not special');
+				}
+			});
+
+		});
+
+		</script>
+
+</body>
+</html>
+
+

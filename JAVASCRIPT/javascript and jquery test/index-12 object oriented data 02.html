@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <script type="text/javascript">
+
+      porche = {condition:"used", color:"red", price:3000};
+      tesla = {condition:"new", color:"white", price:8000};
+
+    </script>
+  </head>
+
+<body>
+  <h2>Car list</h2>
+  <p id="demo"></p>
+
+  <script>
+    document.getElementById("demo").innerHTML = (
+    //"<br>" + 
+    "<strong>Porche</strong> " + "<br>" + 
+    "Condition: " + porche.condition + "<br>" + 
+    "Color: " + porche.color + "<br>" + 
+    "Price: " + porche.price + "$" + "<br>" +
+ 
+    "<br>" +
+    "<strong>Tesla</strong> " + "<br>" + 
+    "Condition: " + tesla.condition + "<br>" + 
+    "Color: " + tesla.color + "<br>" + 
+    "Price: " + tesla.price + "$" + "<br>"
+    );
+  </script>  
+</body>
+
+
+
+</html>
